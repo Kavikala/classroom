@@ -1,0 +1,65 @@
+.boc{
+    margin: 80px auto;
+    padding: 20px;
+    background-color: red;
+    height: 80px;
+    width:80px;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    
+    
+    
+    
+
+}
+@keyframes bounce {
+  from { transform: translateX(0); }
+  to   { transform: translateX(200px); }
+}
+.loader{
+    margin: auto;
+    border: 3px solid #f3f3f353;
+    padding: 20px;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    border-top: 3px solid #111111;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes loader{
+  0% { transform: rotate(0deg);border-top-color: blue; }
+  25% { transform: rotate(90deg);border-top-color: green; }
+  50% { transform: rotate(180deg);border-top-color: red; }
+  75% { transform: rotate(270deg);border-top-color: yellow; }    
+    100% { transform: rotate(360deg);border-top-color: rgb(255, 0, 144); }
+}
+.container{
+    display: flex;
+   width: 100vw;
+   height: 60vh;
+    margin: 20vh auto;
+    gap: 1%;
+    background-color: rgba(255, 160, 122, 0.212);
+}
+.boc1{
+    
+    width: 70%;
+    height: 80%;
+    background-color: darkgreen;
+    
+    border-radius: 8%;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes move{
+   0% { transform: translateX(0);}
+   100% { transform: translateX(-100px);}
+
+}

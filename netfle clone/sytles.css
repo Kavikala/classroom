@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+.header{
+    
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.bg-img{
+    width: 100vw;
+    display: block;
+    
+
+}
+
+    
+
+
+.tint{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+}
+.en-btn{
+    width: 120px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.sign-in-btn{
+    width: 92px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(143, 6, 6);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+.nav{
+   
+    position: absolute;
+    top: 0;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    top: 33px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+        
+}
+.logo{
+    font-size: 30px;
+    width: 100px;
+    height: 40px;
+    
+    
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    
+
+}
+.content-btn{
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+.gs-btn{
+    padding: 10px 20px;
+    background-color: rgb(252, 47, 47);
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 230px;
+}
+.highlight{
+    font-size: 30px;
+    width: 4px;
+        }
+.email{
+    padding: 20px 40px;
+    width: 280px;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(142, 141, 141);
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.header2{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left{
+    width: 50%;
+
+    
+}
+.right{
+    width: 50%;
+
+   
+
+}
+.content2{
+    text-align: left;
+    color: white;
+    width: 90%;
+}
+.watch-tv{
+    width: 90%;
+    display: block;
+    position: relative;
+}
+.video{
+    position: absolute;
+    width: 380px;
+    height: 204px;
+    left: 53px;
+    top: 64px;
+    
+    
+}
+.tv-img{
+    width: 90%;
+    position: relative;
+    z-index: 2;
+}
+.faq-content{
+    text-align: left;
+    border: none;
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+}
+.faq{
+    
+    color: white;
+    width: 100%;
+  
+   
+}
+.faq-h1{
+    margin-left: 140px;
+    
+    
+}
+
+.header3{
+    width: 90%;
+    height: 20%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+}
+.right3{
+    width: 40em;
+    
+}
+.left3{
+    width: 40em;
+    padding: 1px;
+    
+}
+.content3{
+    text-align: left;
+    color: white;
+    width: 80%;
+    
+}
+.device-img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.device-video{
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    top: 100px;
+    left: 160px;
+    
+}
+.real-tv{
+    width: 60%;
+    display: block;
+    position: relative;
+    
+    
+    padding: 100px;
+
+}
+
+.header4{
+    width: 90%;
+    height: 20%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+.right4{
+    width: 40em;
+    
+}
+.left4{
+    width: 40em;
+    padding: 1px;
+    
+}
+.content4{
+    text-align: left;
+    color: white;
+    width: 80%;
+    
+}
+.kids-img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.kids-space{
+    width: 60%;
+    display: block;
+    position: relative;
+    
+    
+    padding: 100px;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+body {
+    
+    margin: 0;
+    box-sizing: border-box;
+}
+.trial {
+        border: 3px solid rgb(215, 207, 249);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        padding: 10px;
+        margin: 10px auto;
+        width: 900px;
+        height: 780px;
+        background-color: rgb(214, 211, 253);
+        box-sizing: border-box;
+
+        
+    }
+
+
+.card1 {
+    
+    border: 2px solid rgb(159, 157, 157);
+    border-radius: 10px;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    margin: 280px 20px 20px 20px;
+    padding: 30px;
+    box-sizing: border-box;
+
+
+   
+}
+
+.card2 {
+    
+    border: 2px solid rgb(159, 157, 157);
+    border-radius: 10px;
+    width: 215px;
+    height: 250px;
+    font-size: 15px;
+    margin: -630px 50px 200px 300px ;
+    padding: 30px;
+    background-color: white;
+    
+
+
+
+   
+}
+.card3 {
+    
+    border: 2px solid rgb(159, 157, 157);
+    border-radius: 10px;
+    width: 215px;
+    height: 270px;
+    font-size: 15px;
+    margin: -180px 50px 200px 300px ;
+    padding: 30px;
+    background-color: white;
+    
+
+
+
+   
+}
+.card4 {
+    
+    border: 2px solid rgb(159, 157, 157);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 222px;
+    height: 300px;
+    font-size: 15px;
+    margin: -970px 0 200px 600px ;
+    padding: 30px;
+    background-color: white;
+    
+
+
+
+   
+}
+.card5 {
+    
+    border: 2px solid rgb(159, 157, 157);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    width: 222px;
+    height: 300px;
+    font-size: 15px;
+    margin: -170px 0 200px 600px ;
+    padding: 30px;
+    background-color: white;
+    
+    
+
+
+
+   
+}
+
+.button {
+    border: 2px solid rgb(87, 32, 175);
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+    color: white;
+    background-color: blue;
+    margin: auto;
+    box-sizing: border-box;
+
+   
+}   
+
+.click {
+    border: 2px solid rgb(87, 32, 175);
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    color: black;
+    text-align: left;
+    background-color: lightgrey;
+    padding: 10px 10px 25px 10px;
+    box-sizing: border-box;
+    margin:0 30px;
+    
+
+   
+}   
+ 
+.card-container {
+    width: 180px;
+    height: 25px;
+    border: 2px solid rgb(229, 228, 228);
+    box-shadow: 2px;
+    border-radius: 5px;
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    margin: auto;
+
+} 
+ 

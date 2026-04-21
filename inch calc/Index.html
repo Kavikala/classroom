@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- <body>
+    <div class="calc">
+        <h2 class="title">CM to Inch Converter</h2>
+        <input type="text"id="value" class="title-field" placeholder="Enter a number">
+        <button class="button" onclick="tail()">Convert to Inche </button>
+        <div id="result" class="result"></div>
+    </div>
+    <script>
+        function tail(){
+            let result=document.getElementById("result");
+        let value=document.getElementById("value").value;
+        let Ogresult=(value/2.54).toFixed(2);
+        
+        result.innerText= Ogresult +" inches" 
+        } 
+
+        
+        </script>
+
+      
+</body> -->
+
+<body>
+    <div class="calc">
+        <h2 class="title">FD rate calculator</h2>
+        <input type="text"id="value" class="title-field" placeholder="Enter a months">
+        <button class="button" onclick="tail()">Calculate</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script>
+        function tail(){
+            let months=document.getElementById("value").value;
+            let result=document.getElementById("result");
+            let rate=0;
+            if(months<=3){
+                rate=5.5;
+            }
+            else if(months>=3 && months<=6)
+            {
+                rate=6.5;
+            }
+            else if(months>=6 && months<=12)
+            {
+                rate=7.5;
+            }
+            
+            else{
+                rate=10.5;
+            }
+            result.innerText= "Rate is: "+ rate + "%";
+        }
+            
+
+        
+        </script>
+
+      
+</body>
+</html>     

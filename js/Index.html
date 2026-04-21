@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <script src="app.js"></script>
+    <script>
+        let shoppingList = [
+    "Milk",
+    "Eggs",
+    "Bread",
+    ["Apples", "Bananas", "Oranges"],
+    ["Potatoes", "Tomatoes", "Onions"]
+];
+console.log(shoppingList[0]); 
+shoppingList.push("carrot")    
+console.log(shoppingList);
+shoppingList.pop();
+console.log(shoppingList);
+shoppingList[4].splice(1,2,"Cucumbers", "Bell Peppers");
+console.log(shoppingList);
+</script>
+<script>
+    let student = {
+    name: "Amit",
+    age: 20,
+    grade: "A",
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        country: "India"
+    }
+};
+console.log(student.name);
+student.phone = "123-456-7890";
+console.log(student);
+delete student.grade;
+console.log(student);
+student.age = 21;
+console.log(student);
+
+let num=-41;
+if(num>0){
+    console.log("Positive Number");
+}
+else{
+    console.log("Negative Number"); 
+}
+
+let score= 20;
+if(score >= 90 && score <= 100){
+    console.log("A");
+
+}
+else if(score>=80 && score<=89){
+    console.log("B");
+
+
+}
+else if (score >=70 && score<=79){
+    console.log("C");
+
+}
+else if(score>=60 && score<=69){
+    console.log("D");
+
+}
+else{
+    console.log("F");
+
+}
+function test(value){
+    return value;
+}
+ans=test(" ")
+console.log(Boolean(ans));
+
+test=a=>Boolean(a);
+console.log(test(""));
+tet=()=>'Hii'
+console.log(tet());
+
+
+
+</script>
+    
+</body>
+</html>
