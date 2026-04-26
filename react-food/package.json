@@ -1,0 +1,28 @@
+{
+  "name": "react-food",
+  "version": "1.0.0",
+  "description": "This is smallfood App project ",
+  "keywords": [
+    "food",
+    "app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "kavi"
+  },
+  "license": "ISC",
+  "author": "kavi",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}
